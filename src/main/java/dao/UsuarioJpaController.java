@@ -165,6 +165,7 @@ public class UsuarioJpaController implements Serializable {
         List<Usuario> lista = usu.findUsuarioEntities();
         for (Usuario usuario : lista) {
             System.out.println(usuario.getNombUsua());
+            System.out.println("Hola desde git :D");
         }
     }
 }

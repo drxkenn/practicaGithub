@@ -124,5 +124,5 @@ public class Usuario implements Serializable {
     public String toString() {
         return "dto.Usuario[ codiUsua=" + codiUsua + " ]";
     }
-    
+   
 }
